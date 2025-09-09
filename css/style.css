@@ -1,0 +1,36 @@
+/* importar fonte do Google - poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* 1.Reset CSS básico */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  /* background: #000; */
+}
+
+.text {
+  font-size: 150px;
+  font-weight: 800;
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #28d461 0%, #d84d87 25%, #c9d611 50%, #4937ad 75%, #691774 100%);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  to {
+    background-position: 400%;
+  }
+}
