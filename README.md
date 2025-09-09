@@ -1,4 +1,4 @@
- Projeto 10 - Efeito de Texto Gradiente
+ Projeto15 - Efeito de Texto Gradiente
 
 🚀 Sobre o Projeto
 
